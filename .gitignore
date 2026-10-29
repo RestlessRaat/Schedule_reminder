@@ -1,0 +1,28 @@
+# Private project data and generated analysis
+/Data/
+/outputs/
+*.xlsx
+*.xls
+*.mpp
+
+# Packaging and Python caches
+/build/
+/dist/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+.idea/
+.vscode/
+*.log
+Thumbs.db
+.DS_Store
